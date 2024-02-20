@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tweets</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link href="styles.css" rel="stylesheet">
+    <style>
+        * {
+        box-sizing: border-box;
+        font-family: 'Ubuntu', sans-serif;
+        }
+
+        main {
+            padding-top: 3rem;
+            display: flex;
+            flex: auto;
+        }
+
+        .holberton-image img{
+            height: 3rem;
+        }
+
+        h1, h2, h3, p {
+            text-align: center;
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            padding: 2rem;
+            padding-top: 5rem;
+        }
+
+        .tweets {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        @media (max-width: 720px){
+            .toggle-button {
+            display: flex;
+            }
+
+            .navbar-links {
+            display: none;
+            }
+
+            .navbar {
+            flex-direction: column;
+            align-items: flex-start;
+            }
+
+            .navbar-links ul {
+            width: 100%;
+            flex-direction: column;
+            }
+
+            .navbar-links {
+            width: 100%;
+            }
+
+            .navbar-links ul li{
+            text-align: center;
+            }
+
+            .navbar-links.active {
+            display: flex;
+            }
+
+            .navbar-links li:hover {
+            background-color: rgb(234, 234, 234);
+            }
+
+            .navbar-links li{
+            padding: 15px;
+            }
+
+            main {
+                flex-direction: column;
+            }
+
+            .tweets {
+                flex-direction: column;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="holberton-image">
+          <a href="https://www.holbertonschool.com/" target="_blank"><img src="https://apply.holbertonschool.com/holberton-logo.png" alt="image"></a>
+        </div>
+        <a class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+          <ul>
+            <li><a href="http://15.237.115.208/index.html">Home</a></li>
+            <li><a href="http://15.237.115.208/tweets.html">Tweets</a></li>
+            <li><a href="http://15.237.115.208/about.html">About</a></li>
+            <li><a href="https://twitter.com/N1haizm" target="_blank"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.linkedin.com/in/nihad-shirinli/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+          </ul>
+        </div>
+      </header>
+      <main>
+        <h1>Actually I have never used Twitter(X) before so i could just put these posts here</h1>
+        <p style="font-size: 1.4rem;">I have started using it now. 😊</p><br><br>
+        <div class="tweets">
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Happy Year Update! ✅ ✨ <br><br>May you experience enhanced life features and infinite possibilities ahead! 🔆<a href="https://twitter.com/hashtag/newyear?src=hash&amp;ref_src=twsrc%5Etfw">#newyear</a> <a href="https://twitter.com/hashtag/holbertonschool?src=hash&amp;ref_src=twsrc%5Etfw">#holbertonschool</a> <a href="https://twitter.com/hashtag/codingschool?src=hash&amp;ref_src=twsrc%5Etfw">#codingschool</a> <a href="https://t.co/SkLFfbtyjh">pic.twitter.com/SkLFfbtyjh</a></p>&mdash; Holberton School 🌎 (@holbertonschool) <a href="https://twitter.com/holbertonschool/status/1741852061417808339?ref_src=twsrc%5Etfw">January 1, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <blockquote class="twitter-tweet"><p lang="en" dir="ltr">Here&#39;s a little something to keep you all going! 🌨️ 🪄<br>.<br>.<br>.<a href="https://twitter.com/hashtag/coderlife?src=hash&amp;ref_src=twsrc%5Etfw">#coderlife</a> <a href="https://twitter.com/hashtag/holbertonschool?src=hash&amp;ref_src=twsrc%5Etfw">#holbertonschool</a> <a href="https://t.co/G73UR3ymLO">pic.twitter.com/G73UR3ymLO</a></p>&mdash; Holberton School 🌎 (@holbertonschool) <a href="https://twitter.com/holbertonschool/status/1740357201166844041?ref_src=twsrc%5Etfw">December 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+        </div>
+      </main>
+      <footer>
+        <span>Made by Nihad Şirinli for <a href="https://apply.holbertonschool.com" target="_blank"> Holberton School</a>.</span>
+        <a href="https://www.holbertonschool.com/" target="_blank"><img src="holberton-logo-removebg-preview.png" alt="logoH"></a>
+      </footer>
+      <script src="menu.js"></script>
+</body>
+</html>
